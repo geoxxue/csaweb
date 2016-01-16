@@ -1,0 +1,146 @@
+
+
+/* Modules
+   ----------------------------------------------------*/
+
+.mini_calendar thead {
+	background: #af1e2d;
+}
+.mini_calendar thead tr th {
+       color: #e7e7e7;
+}
+.mini_cal_nav a {
+	text-decoration: none;
+}
+
+.pod-header {
+	background: #EBEBEB;
+	color: #666666;
+	font-size: 13px;
+	moz-border-radius: 4px;
+}
+.pod-body b {
+	font-size: 12px;
+	font-weight: normal;
+}
+
+.new_pod {
+	background: #f4f4f4;
+	border: 1px solid #ccc;
+	margin-bottom: 20px;
+	padding: 5px 10px 20px 20px;
+}
+.pod-header-left {
+       padding: 0.5625rem 0.025rem;
+}
+.new_pod_bottom li {
+	list-style-type: none;
+}
+
+.new_pod_bottom li a {
+	background: #e7e7e7;
+	border: 1px solid #6d6d6d;
+	margin-bottom: 10px;
+	padding: 6px;
+	text-decoration: none;
+}
+
+.new_pod_bottom li a:hover {
+	background: #fff;
+	border: 1px solid #6d6d6d;
+	color: #000;
+	padding: 6px;
+}
+
+.pod-body label {
+	font-size: 13px;
+}
+
+.pod-body input, .pod-body textarea {
+	border: 1px solid #ccc;
+	width: 300px;
+}
+
+.button, .submit {
+	background: #e7e7e7;
+	border: 1px solid #6d6d6d;
+	moz-border-radius: 2px;
+	padding: 2px 6px;
+}
+
+#calendar_category select {
+	font-size: 10px;
+	height: 25px;
+	padding: 4px;
+	width: 150px;
+}
+
+.module_news li {
+	list-style-type: none;
+}
+
+#module_forms .form_list_view a {
+	background: #E7E7E7;
+	border: #6d6d6d;
+	font-size: 12px;
+	padding: 3px 8px;
+}
+
+#module_forms .form_page_title {
+	font-size: 14px;
+	margin: 5px;
+}
+#module_forms .form_element {
+	padding: 5px;
+}
+#module_forms #newui_forms_elements .form_wrapper input {
+	margin-top: 8px;
+}
+#module_forms .newui_page_title h1 {
+	font-size: 18px;
+	margin: 5px;
+}
+#module_forms .newui_page_title {
+	background: #005f38;
+	padding: 3px;
+}
+#module_news li {
+	background: #f4f4f4;
+	border-bottom: 1px solid #ccc;
+	list-style-type: none;
+	margin-bottom: 10px;
+}
+#module_forms .form_list_view {
+	font-size: 12px;
+}
+#module_files .pod {
+	margin-top: 10px;
+}
+#content #module_files .newui_page_title h1 {
+	display: none;
+	font-size: 10px;
+}
+
+#module_contact .pod-header {
+	display: none;
+}
+
+#fancybox-content {
+       margin-left: 10px;
+}
+#fancybox-outer{
+       height: initial;
+}
+/* Modules: Calendar */
+form#calendar_category {
+    margin-left: 0;
+    padding: 0;
+    position: relative;
+    top: 20px;
+    width: 100%;
+}
+
+a.button.right {
+    position: relative;
+    top: -60px;
+}
